@@ -10,8 +10,8 @@ isInRange(5, { min: 5, max: 5 }) ➞ true
 */
 
 function isInRange(num, range) {
-	var minimum = range.min;
-	var maximum = range.max;
+    var minimum = range.min;
+    var maximum = range.max;
 
   return num >= minimum && num <= maximum;
  }
